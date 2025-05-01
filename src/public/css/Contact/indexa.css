@@ -1,0 +1,208 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 972px;
+    height: 606px;
+    top: 247px;
+    left: 273px;
+    border: 1px #8B7969;
+}
+
+.contact-form__content {
+    background-color: #fff;
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+.contact-form__heading h2 {
+    text-align: center;
+    color: #8B7969;
+    margin-bottom: 30px;
+    font-family: Georgia;
+}
+
+.form__group {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    /* ラベルとコンテンツを横並びにする */
+    align-items: center;
+    /* 縦方向の中央揃え */
+}
+.form__group-content {
+    width: 100%;
+    padding: 0%;
+    /* 入力欄が利用可能なスペースを埋める */
+}
+.form__group-title{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    width: 30%;
+    /* ラベルの固定幅 (調整可能) */
+    flex-shrink: 0;
+    /* ラベルが縮小しないように */
+}
+.form__group-title label {
+    color: #8B7969;
+    font-weight: bold;
+}
+
+.form__group-title span {
+    display: flex;
+    color: #ee0707;
+    font-size: 18px;
+    
+}
+
+.form__group-gender {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form__group-title label[inquiry_type] {
+    align-items: center;
+    margin-right: 15px;
+    width: 30%;
+    /* ラベルの固定幅 (調整可能) */
+    flex-shrink: 0;
+    /* ラベルが縮小しないように */
+}
+
+.form__input--text input[type="text"] {
+    padding: 10px;
+    border: 1px solid #8B7969;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100%;
+    background-color: #E0DFDE;
+}
+.form__input--text input[type="email"] {
+    padding: 10px;
+    border: 1px solid #8B7969;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100%;
+    background-color: #E0DFDE;
+}
+
+
+.form__input--text input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #8B7969;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 70%;
+    background-color: #E0DFDE;
+}
+
+.form__input--text input[type="address"] ,.form__input--text input[type="bilding"]{
+    padding: 10px;
+    border: 1px solid #8B7969;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100%;
+    background-color: #E0DFDE;
+}
+
+.form__input--text select {
+    padding: 10px;
+    border: 1px solid#8B7969;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 70%;
+    background-color:#E0DFDE;
+
+}
+
+.form__input--textarea textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8B7969;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+    min-height: 100px;
+    background-color: #E0DFDE;
+}
+
+.form__group:nth-child(2) .form__input--text {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.form__group:nth-child(2) .form__input--text input[type="text"] {
+    flex-grow: 1;
+    width: auto;
+}
+
+/* 電話番号を分割して横並びにする */
+.form__group:nth-child(5) .form__input--text {
+    /* 電話番号の form__input--text */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.form__group:nth-child(5) .form__input--text .hyphen {
+    color: #0e0e0e;
+    margin: 0 5px;
+    width: auto;
+}
+
+
+.gender-select {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* エラーメッセージのスタイル */
+.form__error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+/* お問い合わせ内容のテキストエリア */
+.form__group:nth-child(9) {
+    /* お問い合わせ内容の詳細の form__group */
+    align-items: flex-start;
+    /* 上揃え */
+}
+
+/* 送信ボタンのスタイル */
+.form__button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    background-color: #8B7969;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}

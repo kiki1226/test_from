@@ -1,0 +1,117 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.confirm__content {
+    width: 972px;
+    height: 606px;
+    top: 247px;
+    left: 273px;
+    border: 1px solid #8B7969;
+}
+
+.confirm__heading {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #d0bc80;
+    font-family: Georgia;
+}
+
+.form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.confirm-table {
+    border: 1px solid #ddd;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 40%;
+    border-bottom: 1px solid #ddd;
+    background-color: #9b947e;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-family: Georgia;
+}
+
+.confirm-table__text {
+    padding-left: 15px;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.confirm-table__text input {
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.confirm-table__text_name {
+    padding-left: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.confirm-table__text_name input {
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    padding: 0;
+    width: 50px;
+    outline: none;
+    border: none;
+}
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+.confirm-table__text_tel {
+    white-space: nowrap;
+    padding-left: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.confirm-table__text_tel input{ 
+    font-size: 16px;
+    white-space: normal;
+    padding: 0;
+    width: 40px;
+    outline: none;
+    border: none;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #cdb389;
+    color: #fff;
+    cursor: pointer;
+}
+.form__button-correction {
+    text-align: center;
+}

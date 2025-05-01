@@ -1,0 +1,29 @@
+.header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(245, 243, 243, 0.933);
+    position: fixed;
+    width: 1512px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1512px;
+}
+.header__logo {
+    color: #8B7969;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Georgia;
+}
+.header-nav__link {
+    color: #2512cc;
+    text-decoration: none;
+}
